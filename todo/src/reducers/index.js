@@ -1,7 +1,7 @@
 import { ADD_TODO } from '../actions'
 
 const initialState = {
-  todos: ['todo item #1']
+  todos: [{ task: 'todo item #1' }]
 }
 
 export default (state = initialState, action) => {
@@ -11,7 +11,7 @@ export default (state = initialState, action) => {
         ...state,
         todos: [
           ...state.todos,
-          { todos: action.payload }
+          { task: action.payload }
         ]
       }
     default:
