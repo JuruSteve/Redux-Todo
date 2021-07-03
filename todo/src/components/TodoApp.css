@@ -1,0 +1,35 @@
+.todos > ul {
+  background: white;
+  height: 500px;
+  box-shadow: inset 5px 1.2px 10px 1px black;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.todos > ul > li {
+  padding: 10px;
+}
+
+.todos > h3 {
+  color: white;
+}
+
+.todos > fieldset {
+  border: 0px;
+}
+.todos > fieldset > input {
+  background: #282c34;
+  color: white;
+  width: 70%;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.add {
+  font-size: 1rem;
+  padding: 5px;
+  width: 30%;
+  margin: 10px;
+  border-radius: 10px;
+}
